@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="233dp"
+        android:layout_height="187dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/ellipse3" />
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="256dp"
+        android:layout_marginEnd="128dp"
+        android:text="ssfsdfs"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:lineSpacingExtra="5dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="70dp"
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="135dp"
+        android:text="Eve dogru giderkene yapilan dogru giderkene yapilan dogru giderkene yapilan dogru giderkene yapilan"
+        android:textSize="17sp" />
+
+
+
+</RelativeLayout>

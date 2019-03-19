@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/sliderbg"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        ></android.support.v4.view.ViewPager>
+
+   <LinearLayout
+       android:layout_below="@id/viewpager"
+       android:orientation="horizontal"
+       android:id="@+id/linearlayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <Button
+           android:textColor="#fff"
+           android:background="@color/colortransparent"
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="back" />
+
+       <TextView
+           android:textAlignment="center"
+           android:id="@+id/textviewDots"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="5"/>
+
+       <Button
+           android:textColor="#fff"
+           android:background="@color/colortransparent"
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="next" />
+   </LinearLayout>
+
+</RelativeLayout>
